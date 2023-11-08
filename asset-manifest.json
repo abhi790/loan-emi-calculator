@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/loan-emi-calculator/static/css/main.1a65006a.css",
+    "main.js": "/loan-emi-calculator/static/js/main.e4f210d9.js",
+    "index.html": "/loan-emi-calculator/index.html",
+    "main.1a65006a.css.map": "/loan-emi-calculator/static/css/main.1a65006a.css.map",
+    "main.e4f210d9.js.map": "/loan-emi-calculator/static/js/main.e4f210d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a65006a.css",
+    "static/js/main.e4f210d9.js"
+  ]
+}
