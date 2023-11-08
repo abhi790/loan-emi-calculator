@@ -27,6 +27,7 @@ const Loan = () => {
     // Initial render as well as subsequent render
     useEffect(()=>{
             calculateEmi();
+            // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [principle,rate,down,tenure])
 
 
