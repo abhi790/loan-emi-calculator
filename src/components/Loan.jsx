@@ -43,7 +43,7 @@ const Loan = () => {
 
     const renderBody = () => {
         return  <>
-                {tableData.length != 0 
+                {tableData.length !== 0 
 
                 ? tableData.map(row => {
                     return (
@@ -123,7 +123,7 @@ const Loan = () => {
     const showShortDetails = () => {
         return (<>
                 <div>Principle : <span className={styles.price}>&#x20B9; {principle - down} </span></div>
-                <div>Initial Payment : <span className={styles.price}>&#x20B9; {down != 0 ? down : 0 } </span></div>
+                <div>Initial Payment : <span className={styles.price}>&#x20B9; {down !== 0 ? down : 0 } </span></div>
                 <div>Tenure : {tenure * 12} months</div>
                 <div>Total Amount : <span className={styles.price}>&#x20B9; {amount} </span></div>
                 <div>You Pay extra : <span className={styles.price}>&#x20B9; {interest} </span></div>
