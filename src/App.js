@@ -1,7 +1,10 @@
+import Loan from "./components/Loan";
+import './App.css';
+
 function App() {
   return (
     <>
-      <h1>This is EMI Calculator</h1>
+      <Loan />
     </>
   );
 }
